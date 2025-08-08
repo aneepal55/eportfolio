@@ -59,7 +59,7 @@ const Hero = () => {
                         transition={{ delay: 0.8, duration: 0.8 }}
                         className="text-lg text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto lg:mx-0"
                     >
-                        Passionate software developer dedicated to creating innovative solutions using modern technologies.
+                        Recent Computer Science graduate from Georgia State University, currently working as a Developer Intern at McKessen.
                         I excel in developing both web and mobile applications and love tackling challenging projects.
                     </motion.p>
 

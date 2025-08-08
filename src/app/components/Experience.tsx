@@ -8,18 +8,18 @@ const Experience = () => {
     const experiences = [
         {
             company: 'McKesson',
-            position: 'Incoming CoverMyMeds Developer Intern',
-            duration: 'June 2025 - August 2025',
+            position: 'CoverMyMeds Developer Intern',
+            duration: 'June 2025 - Present',
             location: 'Columbus, OH',
             logo: '/img/mckesson.jpg',
             description: [
-                'Supporting the Software Engineering team with front-end development and contributing to projects through analysis, design, documentation, and build phases.',
+                'Working with the Software Engineering team on front-end development and contributing to projects through analysis, design, documentation, and build phases.',
                 'Collaborating with cross functional teams including Product, IT Operations, and UX to enhance site reliability and automate environments.',
                 'Gaining hands-on experience with modern technologies/tools such as Python, SQL, React, Docker, VS Code, and Git.',
                 'Demonstrating strong planning, organizational, and communication skills by effectively explaining technical concepts to non-technical stakeholders.'
             ],
             technologies: ['Python', 'SQL', 'React', 'Docker', 'Git'],
-            isUpcoming: true
+            isUpcoming: false
         },
         {
             company: 'Georgia State University',

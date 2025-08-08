@@ -16,9 +16,9 @@ const Education = () => {
             'PantherWeb Club'
         ],
         achievements: [
-            'Maintaining 3.7 GPA while in BS/MS Dual Degree program',
-            'Active participant in university research projects',
-            'Member of computer science student organizations'
+            'Graduated with 3.7 GPA from BS/MS Dual Degree program',
+            'Completed university research projects',
+            'Active member of computer science student organizations'
         ],
         relevantCoursework: [
             'Data Structures & Algorithms',
@@ -84,7 +84,7 @@ const Education = () => {
                                         <div className="flex flex-col md:items-end gap-2 mt-4 md:mt-0">
                                             <div className="flex items-center text-gray-600 dark:text-gray-300">
                                                 <Calendar className="w-4 h-4 mr-2" />
-                                                <span className="text-sm">Expected {education.expectedGraduation}</span>
+                                                <span className="text-sm">Graduated {education.expectedGraduation}</span>
                                             </div>
                                             <div className="flex items-center text-gray-600 dark:text-gray-300">
                                                 <Trophy className="w-4 h-4 mr-2" />

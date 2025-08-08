@@ -64,8 +64,8 @@ const About = () => {
                             in competitive programming challenges, including a 2nd place finish at GSU&apos;s Technology Immersion Challenge.
                         </p>
                         <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-                            Currently pursuing my BS/MS in Computer Science at Georgia State University while gaining industry
-                            experience through internships and research projects. I&apos;m passionate about leveraging technology
+                            Recently graduated with my BS in Computer Science from Georgia State University and currently gaining
+                            industry experience through my ongoing internship at McKessen. I&apos;m passionate about leveraging technology
                             to create meaningful impact in people&apos;s lives.
                         </p>
                     </motion.div>
