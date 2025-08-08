@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { Download, Github, Linkedin, Mail, Phone } from 'lucide-react';
+import Image from 'next/image';
 
 const Hero = () => {
     const skills = ['Python', 'JavaScript/TypeScript', 'React', 'SQL'];
@@ -135,10 +136,15 @@ const Hero = () => {
                         className="relative"
                     >
                         <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 p-1 shadow-2xl">
-                            <div className="w-full h-full rounded-full bg-white dark:bg-gray-900 flex items-center justify-center">
-                                <div className="w-56 h-56 md:w-72 md:h-72 rounded-full bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-900/20 dark:to-purple-900/20 flex items-center justify-center text-4xl md:text-6xl font-bold text-blue-600 dark:text-blue-400">
-                                    AP
-                                </div>
+                            <div className="w-full h-full rounded-full bg-white dark:bg-gray-900 flex items-center justify-center overflow-hidden">
+                                <Image
+                                    src="/img/aneesh.png"
+                                    alt="Aneesh Pallapolu"
+                                    width={320}
+                                    height={320}
+                                    className="w-56 h-56 md:w-72 md:h-72 rounded-full object-cover"
+                                    priority
+                                />
                             </div>
                         </div>
                         <motion.div

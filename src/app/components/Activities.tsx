@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { Trophy, Calendar, Users, Zap, Target, Code } from 'lucide-react';
+import Image from 'next/image';
 
 const Activities = () => {
     const activities = [
@@ -10,6 +11,7 @@ const Activities = () => {
             year: '2024',
             description: 'Participated in an intensive hackathon focused on AI innovations. Collaborated with developers to create AI-powered solutions within tight deadlines.',
             icon: <Zap className="w-6 h-6" />,
+            logo: '/img/aiatl.png',
             color: 'from-purple-500 to-pink-500',
             achievements: [
                 'Developed AI-powered application in 48 hours',
@@ -24,6 +26,7 @@ const Activities = () => {
             year: '2025',
             description: 'Engaged in a competitive environment to develop creative data-driven solutions. Focused on analytics and data visualization challenges.',
             icon: <Target className="w-6 h-6" />,
+            logo: '/img/hackalytics.png',
             color: 'from-blue-500 to-cyan-500',
             achievements: [
                 'Created innovative data visualization dashboard',
@@ -38,6 +41,7 @@ const Activities = () => {
             year: '2024',
             description: 'Collaborated with peers to tackle cybersecurity problems. Achieved 2nd place recognition for innovative security solution.',
             icon: <Trophy className="w-6 h-6" />,
+            logo: '/img/gsu.png',
             color: 'from-green-500 to-emerald-500',
             achievements: [
                 '🏆 2nd Place Winner',
@@ -120,8 +124,14 @@ const Activities = () => {
                                 <div className="flex flex-col lg:flex-row gap-6">
                                     {/* Activity Icon and Info */}
                                     <div className="flex-shrink-0">
-                                        <div className={`w-16 h-16 bg-gradient-to-br ${activity.color} rounded-xl flex items-center justify-center text-white shadow-lg mb-4`}>
-                                            {activity.icon}
+                                        <div className="w-16 h-16 bg-white dark:bg-slate-700 rounded-xl flex items-center justify-center shadow-lg mb-4 overflow-hidden">
+                                            <Image
+                                                src={activity.logo}
+                                                alt={`${activity.title} logo`}
+                                                width={64}
+                                                height={64}
+                                                className="w-full h-full object-contain p-2"
+                                            />
                                         </div>
                                         <div className="text-center lg:text-left">
                                             <div className="flex items-center justify-center lg:justify-start text-gray-500 dark:text-gray-400 text-sm">

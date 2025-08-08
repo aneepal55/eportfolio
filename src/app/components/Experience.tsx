@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { Calendar, MapPin, ExternalLink } from 'lucide-react';
+import Image from 'next/image';
 
 const Experience = () => {
     const experiences = [
@@ -70,10 +71,14 @@ const Experience = () => {
                                 <div className="flex flex-col md:flex-row gap-6">
                                     {/* Company Logo */}
                                     <div className="flex-shrink-0">
-                                        <div className="w-16 h-16 bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-900/20 dark:to-purple-900/20 rounded-lg flex items-center justify-center">
-                                            <span className="text-2xl font-bold text-blue-600 dark:text-blue-400">
-                                                {experience.company.charAt(0)}
-                                            </span>
+                                        <div className="w-16 h-16 bg-white dark:bg-slate-700 rounded-lg flex items-center justify-center overflow-hidden shadow-md">
+                                            <Image
+                                                src={experience.logo}
+                                                alt={`${experience.company} logo`}
+                                                width={64}
+                                                height={64}
+                                                className="w-full h-full object-contain p-2"
+                                            />
                                         </div>
                                     </div>
 

@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { ExternalLink, Github, Smartphone, Globe, Star } from 'lucide-react';
+import Image from 'next/image';
 
 const Projects = () => {
     const projects = [
@@ -92,16 +93,18 @@ const Projects = () => {
                         >
                             {/* Project Image */}
                             <div className="relative h-48 bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-900/20 dark:to-purple-900/20 overflow-hidden">
-                                <div className="absolute inset-0 flex items-center justify-center">
-                                    <div className="text-6xl font-bold text-blue-600/20 dark:text-blue-400/20">
-                                        {project.title.charAt(0)}
-                                    </div>
-                                </div>
+                                <Image
+                                    src={project.image}
+                                    alt={`${project.title} screenshot`}
+                                    fill
+                                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                                />
+                                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
                                 <div className="absolute top-4 right-4 flex gap-2">
-                                    <span className="px-2 py-1 bg-white/90 dark:bg-slate-800/90 text-xs font-medium text-blue-600 dark:text-blue-400 rounded-full">
+                                    <span className="px-2 py-1 bg-white/90 dark:bg-slate-800/90 text-xs font-medium text-blue-600 dark:text-blue-400 rounded-full backdrop-blur-sm">
                                         {project.type}
                                     </span>
-                                    <span className="px-2 py-1 bg-green-100 dark:bg-green-900/30 text-xs font-medium text-green-800 dark:text-green-400 rounded-full">
+                                    <span className="px-2 py-1 bg-green-100/90 dark:bg-green-900/50 text-xs font-medium text-green-800 dark:text-green-400 rounded-full backdrop-blur-sm">
                                         {project.status}
                                     </span>
                                 </div>
