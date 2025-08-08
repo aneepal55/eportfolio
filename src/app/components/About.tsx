@@ -8,22 +8,22 @@ const About = () => {
         {
             icon: <Code className="w-6 h-6" />,
             title: 'Full-Stack Development',
-            description: 'Expert in both web and mobile application development'
+            description: 'Expert in both web and mobile application development using modern frameworks'
         },
         {
             icon: <Lightbulb className="w-6 h-6" />,
             title: 'Problem Solver',
-            description: 'Love tackling challenging projects and finding innovative solutions'
+            description: 'Strong analytical thinking with experience in data structures and algorithms'
         },
         {
             icon: <Users className="w-6 h-6" />,
-            title: 'Team Player',
-            description: 'Thrive in collaborative environments and enjoy knowledge sharing'
+            title: 'Research Experience',
+            description: 'Active in university research projects and academic collaboration'
         },
         {
             icon: <Zap className="w-6 h-6" />,
-            title: 'Hackathon Enthusiast',
-            description: 'Active participant in hackathons, pushing boundaries of what\'s possible'
+            title: 'Performance Focused',
+            description: 'Committed to writing efficient, scalable code and optimized user experiences'
         }
     ];
 
@@ -54,19 +54,19 @@ const About = () => {
                     >
                         <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
                             Hello, I&apos;m <span className="font-semibold text-blue-600 dark:text-blue-400">Aneesh Pallapolu</span>—a
-                            passionate software developer dedicated to creating innovative solutions using modern technologies.
-                            With a strong background in Python, JavaScript/TypeScript, React, SQL, and more, I excel in developing
-                            both web and mobile applications.
+                            dedicated software developer with expertise in Python, JavaScript/TypeScript, React, SQL, and more.
+                            I specialize in full-stack development, bringing ideas from concept to deployment with clean,
+                            efficient code and user-centered design.
                         </p>
                         <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-                            I thrive in collaborative environments, love tackling challenging projects, and enjoy participating
-                            in hackathons to push the boundaries of what&apos;s possible. When I&apos;m not coding, I&apos;m continuously
-                            learning new tools, exploring creative ideas, and sharing my knowledge with the developer community.
+                            My experience spans from building payment processing applications to developing professor review
+                            platforms for university students. I excel in collaborative environments and have earned recognition
+                            in competitive programming challenges, including a 2nd place finish at GSU&apos;s Technology Immersion Challenge.
                         </p>
                         <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-                            Currently pursuing my Bachelor&apos;s degree in Computer Science at Georgia State University as part of
-                            the BS/MS Dual Degree program, maintaining a 3.7 GPA while gaining hands-on experience through
-                            internships and research projects.
+                            Currently pursuing my BS/MS in Computer Science at Georgia State University while gaining industry
+                            experience through internships and research projects. I&apos;m passionate about leveraging technology
+                            to create meaningful impact in people&apos;s lives.
                         </p>
                     </motion.div>
 

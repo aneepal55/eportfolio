@@ -75,7 +75,7 @@ const Activities = () => {
                     </h2>
                     <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-8"></div>
                     <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-                        My participation in hackathons and technology challenges that have shaped my problem-solving skills
+                        Competitive programming and hackathon achievements that demonstrate my ability to innovate under pressure
                     </p>
                 </motion.div>
 
@@ -210,11 +210,11 @@ const Activities = () => {
                 >
                     <div className="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 rounded-xl p-8">
                         <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-                            Always Ready for the Next Challenge
+                            Ready for New Challenges
                         </h3>
                         <p className="text-gray-600 dark:text-gray-300 mb-6 max-w-2xl mx-auto">
-                            I&apos;m passionate about participating in hackathons and technology competitions. These events help me push my limits,
-                            learn new technologies quickly, and collaborate with talented developers from diverse backgrounds.
+                            I&apos;m always excited about opportunities to solve complex problems and work with talented teams.
+                            Let&apos;s build something amazing together.
                         </p>
                         <button
                             onClick={() => document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' })}
