@@ -8,8 +8,8 @@ const Hero = () => {
     const skills = ['Python', 'JavaScript/TypeScript', 'React', 'SQL'];
 
     return (
-        <section className="min-h-screen flex items-center justify-center pt-16 px-4 sm:px-6 lg:px-8">
-            <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <section className="min-h-screen flex items-center justify-center pt-16 px-6 sm:px-8 lg:px-12 xl:px-16">
+            <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 {/* Content */}
                 <motion.div
                     initial={{ opacity: 0, x: -50 }}

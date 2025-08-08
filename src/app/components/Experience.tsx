@@ -39,8 +39,8 @@ const Experience = () => {
     ];
 
     return (
-        <section id="experience" className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900/50">
-            <div className="max-w-7xl mx-auto">
+        <section id="experience" className="py-20 px-6 sm:px-8 lg:px-12 xl:px-16 bg-white dark:bg-slate-900/50">
+            <div className="max-w-6xl mx-auto">
                 <motion.div
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}

@@ -38,8 +38,8 @@ const Certifications = () => {
     ];
 
     return (
-        <section id="certifications" className="py-20 px-4 sm:px-6 lg:px-8">
-            <div className="max-w-7xl mx-auto">
+        <section id="certifications" className="py-20 px-6 sm:px-8 lg:px-12 xl:px-16">
+            <div className="max-w-6xl mx-auto">
                 <motion.div
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}

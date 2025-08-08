@@ -38,11 +38,11 @@ const Navbar = () => {
             initial={{ y: -100 }}
             animate={{ y: 0 }}
             className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled
-                    ? 'bg-white/80 dark:bg-slate-900/80 backdrop-blur-md shadow-lg'
-                    : 'bg-transparent'
+                ? 'bg-white/80 dark:bg-slate-900/80 backdrop-blur-md shadow-lg'
+                : 'bg-transparent'
                 }`}
         >
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 xl:px-16">
                 <div className="flex items-center justify-between h-16">
                     <motion.div
                         initial={{ opacity: 0 }}
